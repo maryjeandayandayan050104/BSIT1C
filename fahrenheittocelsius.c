@@ -19,7 +19,7 @@ s( "%f", &f);
 c = (f-32)*5/9;
 system("cls");
 
-p("The equivalent value in celsius is %.1f", c);
+p("%.1f Fahrenheit = %.1f Celsius", f, c);
 
 return 0;
 
