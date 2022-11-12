@@ -8,19 +8,19 @@
 
 int main () {
 
-    int a, b;
+    float a, b;
 
     printf("Enter value for a: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("Enter value for b: ");
-    scanf("%d", &b);
+    scanf("%f", &b);
 
     if(a>b){
-    printf("A>B\n");
+    printf("\n\nThe %.2f value of a is greater than the %.2f value of b\n", a, b);
     }
 
     if(b>a){
-    printf("B>A\n");
+    printf("\n\nThe %.2f value of b is greater than the %.2f value of a\n", b, a);
     }
 
     return 0;
